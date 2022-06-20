@@ -12,7 +12,7 @@ $ Netlify : https://xiaomi-store.netlify.app
 
 ## Tech Stack
 
-**Client:** React, React-Bootstrap, Vite.js
+**Client:** React, React-Bootstrap, Vite.js, CSS
 
 
 
@@ -47,7 +47,7 @@ To build this project run
 
 Here are some related projects
 
-[Bizbud Studi website Design ](https://github.com/Akash-Layal/Bizbud-Studio-website.git) \
+[Bizbud Studio website Design ](https://github.com/Akash-Layal/Bizbud-Studio-website.git) \
 [Purchases Card Design ](https://github.com/Akash-Layal/Purchases-Card-Design.git)
 
 
