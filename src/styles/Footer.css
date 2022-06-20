@@ -1,0 +1,119 @@
+.main-footer {
+  background-color: #212121;
+  padding: 40px 0 60px;
+  color: #b0b0b0;
+  padding: 2vmax 3vmax;
+  padding-top: 4vmax;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 2fr;
+}
+
+.support,
+.shop-and-learn,
+.retail-store,
+.about-us,
+.contact-footer-menu {
+  display: flex;
+  flex-direction: column;
+}
+.support p,
+.shop-and-learn p,
+.retail-store p,
+.about-us p,
+.contact-footer-menu p {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+  font-weight: 700;
+  margin-bottom: 1vmax;
+}
+.support a,
+.shop-and-learn a,
+.retail-store a,
+.about-us a,
+.contact-footer-menu a {
+  text-decoration: none;
+  color: #b0b0b0;
+  font-size: 0.75rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  margin: 0.4vmax 0;
+  transition: all 0.1s ease-in-out;
+}
+
+.support a:hover,
+.shop-and-learn a:hover,
+.retail-store a:hover,
+.about-us a:hover,
+.contact-footer-menu a:hover {
+  color: #fff;
+}
+
+.chat-box span {
+  padding: 1vmax 0;
+  font-size: 0.7rem;
+}
+
+.chat-btn {
+  margin-top: 0.5rem;
+  border: 1px solid white;
+  background: none;
+  padding: 0.5rem 2.5rem;
+  color: white;
+  font-size: 13px;
+  text-transform: uppercase;
+
+  transition: all 0.3s ease-in-out;
+}
+.chat-btn:hover {
+  margin-top: 0.5rem;
+  background: white;
+  border: 1px solid white;
+  color: black;
+}
+
+/* 
+
+2nd ul
+
+*/
+
+.shop-and-learn {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 0 1.5vmax;
+  padding-left: 1vmax;
+  /* background-color: aqua; */
+  overflow: hidden;
+}
+
+.shop-and-learn a:not(:last-child):after {
+  content: "/";
+  color: #b0b0b0;
+  margin: 0 5px;
+}
+
+/* 
+
+footer border
+
+*/
+
+.footer-border {
+  width: 100%;
+  background-color: #212121;
+  float: left;
+  color: #b0b0b0;
+
+  font-size: 0.8rem;
+}
+.footer-border div {
+  border-top: 1px solid #424242;
+  width: 90%;
+  margin: auto;
+  padding: 1.7vmax 0;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}

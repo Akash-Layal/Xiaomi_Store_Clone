@@ -1,0 +1,53 @@
+.preFooter {
+  width: 100%;
+  margin: auto;
+  background-color: white;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.preFooter ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.9rem;
+  font-weight: 600;
+  padding: 1vmax;
+  list-style: none;
+  margin: 1rem;
+}
+.preFooter ul span {
+  display: flex;
+  width: 15%;
+  font-size: 2.5rem !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.preFooter ul span svg {
+  width: 100%;
+
+  transform: scale(1.5);
+  margin-right: 0.5vmax;
+  fill: #b0b0b0;
+  transition: 0.2s ease-in-out;
+}
+.preFooter ul a {
+  font-size: 0.8rem;
+  margin-left: 0.5vmax;
+  text-decoration: none;
+  color: #424242;
+}
+
+.preFooter ul a li:nth-child(2) {
+  color: #b0b0b0;
+}
+
+.preFooter ul:hover #repeat-icon svg,
+.preFooter ul:hover #map-icon svg,
+.preFooter ul:hover #shield-icon svg {
+  fill: #424242;
+}
+.preFooter ul:hover a li {
+  color: #424242;
+}

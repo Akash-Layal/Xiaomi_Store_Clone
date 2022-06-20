@@ -1,0 +1,22 @@
+.offerSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem 0rem;
+}
+
+.offerLinks {
+    padding: 0.5rem;
+  /* background-color: aquamarine; */
+  width: 30%;
+}
+
+.offerLinks img {
+  display: block;
+  width: 100%;
+  transition: box-shadow .2s linear;
+}
+
+.offerLinks img:hover {
+    box-shadow: 0 8px 16px rgb(0 0 0 / 18%);
+}

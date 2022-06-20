@@ -1,0 +1,81 @@
+.connect-us {
+  display: grid;
+  grid-template-columns: 2fr 1.5fr;
+  margin: 1rem 0;
+}
+
+.news-letter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2vmax;
+  padding: 2vmax;
+  padding-right: 0;
+}
+
+.news-letter > div > p,
+.follow-us > div > p {
+  margin: 0;
+  padding: 0;
+}
+.news-letter > div > span,
+.follow-us > div > span {
+  font-size: 0.75rem;
+  font-weight: 300;
+  margin: 0;
+  padding: 0;
+}
+
+.mail-box {
+  position: relative;
+  display: flex;
+  width: 50%;
+}
+
+.mail-box input {
+  width: 60%;
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.5vmax;
+  outline: none;
+  border: none;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  background-color: white;
+}
+.sub-btn span {
+  color: #616161;
+  font-weight: 400;
+}
+
+.follow-us {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 2vmax;
+  padding: 2vmax;
+  padding-left: 0;
+}
+
+.social-icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+}
+
+.social-icon-box a svg {
+  fill: #b0b0b0;
+  transition: all 0.2s ease-in-out;
+}
+
+.social-icon-box a:hover svg {
+  fill: #616161;
+}

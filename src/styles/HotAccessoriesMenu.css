@@ -1,0 +1,25 @@
+.hotAccessoriesMenu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1vmax;
+  padding: 1.5vmax ;
+  max-height: 60px;
+  margin: 10px auto 30px;
+}
+
+.hotAccessoriesLink {
+/* background-color: burlywood; */
+  margin-inline: 1.5vmax;
+  text-decoration: none;
+  padding: 0.4vmax 0;
+  font-size: 14px;
+  color: #757575;
+  cursor: pointer;
+  transition: 0.2s ease-in-out;
+}
+
+.hotAccessoriesLink:hover {
+  color: #ff6700;
+  border-bottom: 1px solid #ff6700;
+}

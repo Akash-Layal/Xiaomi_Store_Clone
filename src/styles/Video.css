@@ -1,0 +1,12 @@
+.videoBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 90%;
+
+    margin: 1.5vmax auto;
+    padding: 1vmax;
+    margin-bottom: 0;
+    padding-bottom: 0;
+    /* background-color: blueviolet; */
+}

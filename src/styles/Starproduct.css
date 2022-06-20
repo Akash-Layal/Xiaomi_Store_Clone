@@ -1,0 +1,39 @@
+.Starproduct {
+  width: 90%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3vmax auto;
+}
+
+.Starproduct div {
+  width: 100%;
+  margin: 1px;
+}
+
+.rightStarProduct a img,
+.leftStarProduct a img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  image-rendering: pixelated;
+  width: 100%;
+}
+
+.leftStarProduct a {
+  margin-right: 1px;
+  margin-bottom: 1px;
+}
+.leftStarProduct a:last-child {
+  margin-bottom: 0px;
+}
+.leftStarProduct {
+  /* background-color: blueviolet; */
+  display: grid;
+  place-items: center;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+.leftStarProduct a:last-child {
+  grid-column: 1 / span 5;
+}

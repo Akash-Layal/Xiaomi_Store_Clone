@@ -1,0 +1,65 @@
+.endSlider {
+  margin: 3vmax 0;
+  margin-bottom: 3rem !important;
+}
+.endSliderItem {
+  background-color: #000;
+  position: relative !important;
+}
+
+.endSliderItem img {
+  image-rendering: auto;
+  image-rendering: crisp-edges;
+  min-height: 120%;
+  width: 120%;
+  background-position:center;
+  opacity: 0.5;
+}
+
+.caption {
+  position: absolute;
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90%;
+}
+
+.caption h3 {
+  position: relative;
+  font-size: 2.3rem;
+  padding: 1vmax;
+  margin-bottom: 1.5vmax;
+}
+
+.caption .bannerTitle::after {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -35px;
+  border-top: 2px solid #fff;
+}
+
+.caption p {
+  margin: 0;
+  padding: 0;
+  font-weight: 200;
+}
+.caption p:nth-child(3) {
+  margin-top: 1vmax;
+}
+
+.caption a {
+  color: #fff;
+  margin-top: 1vmax;
+  font-weight: 200;
+}
+
+
+.carousel-control-prev-icon{
+  font-size: 5rem;
+}

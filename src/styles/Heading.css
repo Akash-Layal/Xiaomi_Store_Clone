@@ -1,0 +1,41 @@
+.heading {
+  width: 110%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-size: 27px;
+  font-family: "Proxima Nova", sans-serif;
+  font-weight: 300;
+  letter-spacing: 1px;
+  color: #616161;
+  text-transform: uppercase;
+  margin: 0px;
+}
+#title {
+  margin: 0 160px;
+  margin-top: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#title :first-child {
+  background-color: #e0e0e0e5;
+  width: 1280px;
+  height: 1px;
+  width: 100%;
+  display: flex;
+  flex-shrink: 1;
+  display: inline-block;
+}
+
+#title :last-child {
+  background-color: #e0e0e0e5;
+  width: 1280px;
+  height: 1px;
+  width: 100%;
+  display: flex;
+  flex-shrink: 1;
+  display: inline-block;
+}

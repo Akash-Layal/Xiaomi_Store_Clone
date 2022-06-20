@@ -1,0 +1,32 @@
+.productCart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+
+.productCart img {
+  width: 75%;
+}
+
+.productCart h4 {
+  width: 100%;
+  font-size: 0.8rem;
+  text-align: center;
+  margin-top: 0.5vmax;
+  font-weight: 700;
+}
+.productCart:hover {
+  box-shadow: 0 15px 30px rgb(0 0 0 / 10%);
+  transform: translate3d(0,-2px,0);
+}
+
+.productCart .price {
+  color: #ff6802;
+  font-size: 0.75rem;
+  font-weight: 700;
+  letter-spacing: 0.1px;
+}
