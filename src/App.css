@@ -96,10 +96,10 @@ body {
   }
 
   #mainNav {
-    display: none;
+    display: none !important;
   }
   .hotAccessories {
-    width: 100%;
+    width: 100% !important;
   }
   .list-right {
     width: 100% !important;
@@ -110,6 +110,6 @@ body {
   }
 
   .list-left {
-    display: none;
+    display: none !important;
   }
 }
